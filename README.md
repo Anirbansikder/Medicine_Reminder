@@ -28,3 +28,83 @@ Optional, but suggested:
 8. Add the ability for hospital staff to attribute up to a dozen different medicines to a patient.
 
 9. Any other features you think may be useful. Explicitly enumerate these at the top of our ReadMe along with brief explanations of why you implemented them. 
+
+# Tech Stack 
+
+## Front End
+
+### <li>React</li>
+
+## Back End
+
+### <li>NodeJS</li>
+### <li>Express</li>
+
+## Database
+
+### <li>MongoDB</li>
+
+## Notification Service
+
+### <li>Twilio</li>
+
+# Installation 
+
+Open a Terminal to Install and Run FrontEnd
+
+```bash
+cd dashboard
+npm i
+npm start
+```
+
+This will open a new browser window with react running on it.
+
+Open A new Terminal to run backend
+
+```bash
+cd Backend
+npm i
+npm start
+```
+
+Also don't forget to add ```.env``` file i=on ```/Backend/``` . It will look like 
+
+```js
+MONGOURI=
+PORT=
+TWILIO_ACCOUNT_SID=
+TWILIO_AUTH_TOKEN=
+TWILIO_PHONE_NUMBER=
+MONGO_URL=
+APP_SECRET=
+TWILIO_MESSAGING_SERVICE_SID=
+```
+
+# Video Link
+
+[You Tube Link For Demo Of The App]()
+
+# Features Fulfilled
+
+- [ x ] Sign up for a Twilio account and create a new project.
+
+- [ x ] Set up a local development environment. Used NodeJS
+
+- [ x ] Write a script to send reminders via SMS using Twilio's Programmable SMS API. The script should query the database for when patients need to take certain medicines and send a reminder message to the customer's phone number using the Twilio API. The message should include the medicine name and dosage.
+
+- [ x ] Translate the CSV into a more functional database using MongoDB. 
+
+- [ x ] Create a web portal where hospital staff can access the database, add patients, edit medicine and dosage amounts.
+
+- [ x ] Set up a webhook to handle customer responses. When a customer replies to the reminder message, the webhook should update the database with the customer's response. Examples of customer responses can be "Yes" or "My prescription is out."
+
+- [ x ] Add the ability for hospital staff to attribute two different medicines to a patient. If the patient needs to take two different medicines on the same day, they should only receive one message.
+
+- [ x ] Add the ability for hospital staff to attribute up to a dozen different medicines to a patient.
+
+# Future Features and Implementations
+
+- [  ] Add Authentication And Authorization 
+- [  ] Host The WebApp
+- [  ] Implement ChatBot
