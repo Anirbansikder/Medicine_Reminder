@@ -50,8 +50,6 @@ const MessagingDashboard = () => {
     .then(response => {
       if(response.data.message == "Message Deleted"){
         fetchMessages();
-      } else {
-        console.log(response.data.message)
       }
     })
     .catch(err => {
