@@ -1,0 +1,78 @@
+  .message-header {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .message-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    font-size: 14px;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: #F5F5F5;
+    color: #333333;
+    border-radius: 8px;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #CFCFCF;
+  }
+  
+  .table th {
+    background-color: #3C8DBC;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #EFEFEF;
+    text-align: center;
+  }
+  
+  .table tr:nth-child(odd) {
+    background-color: #F5F5F5;
+    text-align: center;
+  }
+  
+  .table tr:hover {
+    background-color: #D9EDF7;
+    color: #333333;
+  }
+  
+  .table td:last-child {
+    width: 200px;
+  }
+
+  /* Style alternating table rows */
+  .table tr:nth-child(even) td {
+    background-color: #EFEFEF;
+  }
+  
+  .table tr:nth-child(odd) td {
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the message body column to be wider */
+  .table td:nth-child(7) {
+    width: 35%;
+  }
+
+  .table th:nth-child(7) {
+    width: 35%;
+  }
+  
+  .dashboard-top-message{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+  }

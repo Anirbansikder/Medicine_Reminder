@@ -1,0 +1,172 @@
+/* Dashboard Container */
+.dashboard-container {
+max-width: 1300px;
+margin: 0 auto;
+padding: 60px 20px;
+background-color: #f2f2f2;
+}
+
+/* Dashboard Top */
+.dashboard-top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 60px;
+}
+
+.dashboard-searchbar-container {
+display: flex;
+align-items: center;
+}
+
+/* Dashboard Patients */
+.dashboard-patients {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+}
+
+.dashboard-patient {
+display: flex;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-patient-left {
+flex: 1;
+}
+
+.dashboard-patient-right {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-end;
+margin-left: 10px;
+}
+
+.dashboard-patient-header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.dashboard-patient-header h3 {
+font-size: 20px;
+margin: 0;
+}
+
+.dashboard-patient-header button {
+background-color: #1E90FF;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 2px 2px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.dashboard-patient-header button:hover {
+background-color: #007FFF;
+}
+
+/* Pagination */
+.pagination {
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.pagination li {
+margin: 0 5px;
+list-style: none;
+}
+
+.pagination li button {
+background-color: #1E90FF;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 5px 10px;
+cursor: pointer;
+list-style: none;
+}
+
+.pagination li button:hover {
+background-color: #007FFF;
+}
+
+.pagination .active button {
+background-color: #007FFF;
+}
+
+button {
+background-color: #1E90FF;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #007FFF;
+}
+
+.dashboard-searchbar-container {
+display: flex;
+align-items: center;
+background-color: white;
+border-radius: 5px;
+padding: 5px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+margin-right: 10px;
+}
+
+.dashboard-searchbar-container input[type="text"] {
+border: none;
+padding: 5px;
+font-size: 16px;
+width: 500px;
+}
+
+.dashboard-searchbar-container button {
+background-color: #1E90FF;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 5px 10px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+.dashboard-searchbar-container button:hover {
+background-color: #007FFF;
+}
+  
+.danger{
+    background-color: red;
+}
+
+.danger:hover{
+    background-color: rgb(219, 0, 0) !important;
+}
+
+.deleteButtonsPhone{
+    margin-top: 30px;
+    min-height: 50px;
+    position: relative;
+}
+
+.dangerPhone{
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    background-color: red !important;
+}
+
+.dangerPhone:hover{
+    background-color: rgb(219, 0, 0) !important;
+}

@@ -1,0 +1,32 @@
+.deleteHeader{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Arial, sans-serif";
+}
+
+.deleteButtons.danger{
+    background-color: red;
+}
+
+.deleteButtons.danger:hover{
+    background-color: rgb(235, 0, 0);
+}
+
+.safe{
+    background-color: rgb(130, 216, 0) !important;
+}
+
+.safe:hover{
+    background-color: rgb(146, 243, 0) !important;
+}
+
+.deleteButtons{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
